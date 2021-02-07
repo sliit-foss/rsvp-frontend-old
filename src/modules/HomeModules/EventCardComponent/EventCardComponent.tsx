@@ -1,4 +1,4 @@
-import "../../../scss/UpComing.scss";
+import "../UpComingEvents/UpComing.scss";
 function EventCard() {
   return (
     <>

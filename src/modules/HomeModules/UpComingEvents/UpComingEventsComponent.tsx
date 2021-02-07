@@ -1,4 +1,4 @@
-import "../../../scss/UpComing.scss";
+import "./UpComing.scss";
 import EventCard from "../EventCardComponent/EventCardComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
