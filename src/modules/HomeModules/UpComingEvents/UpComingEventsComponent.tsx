@@ -2,7 +2,7 @@ import "../../../scss/UpComing.scss";
 import EventCard from "../EventCardComponent/EventCardComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
-function upComingEvents() {
+function UpComingEvents() {
   return (
     <>
       <div className="container-fluid card-container">
@@ -91,4 +91,4 @@ function upComingEvents() {
   );
 }
 
-export default upComingEvents;
+export default UpComingEvents;
