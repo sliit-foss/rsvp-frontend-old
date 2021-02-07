@@ -1,4 +1,4 @@
-import "../../../../src/scss/navbar.scss";
+import "./Navbar.scss";
 
 function Navbar() {
   return (
