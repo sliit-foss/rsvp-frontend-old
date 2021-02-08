@@ -2,10 +2,13 @@
     background-color: rgb(255, 255, 255) !important;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
-    a{
+    .navbar-brand{
         color: #1C102D !important;
     }
 
+    .navbar-nav{
+       color: #797979;
+    }
     .navbar-brand{
         font-weight: bold;
     }
