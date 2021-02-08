@@ -1,5 +1,4 @@
 import "./UpComing.scss";
-import EventCard from "../EventCardComponent/EventCardComponent";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 function UpComingEvents() {
@@ -15,72 +14,36 @@ function UpComingEvents() {
           </h2>
 
           <div className="col-12">
-            <div id="carousel" className="carousel slide" data-ride="carousel">
-              <ol className="carousel-indicators">
-                <li
-                  data-target="#carousel"
-                  data-slide-to={0}
-                  className="active bg-secondary"
-                />
-                <li
-                  data-target="#carousel"
-                  data-slide-to={1}
-                  className="bg-secondary"
-                />
-                <li
-                  data-target="#carousel"
-                  data-slide-to={2}
-                  className="bg-secondary"
-                />
-              </ol>
-              <div className="carousel-inner ">
-                <div className="carousel-item active">
-                  <div className="row">
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                  </div>
+            <div className="courses-container">
+              <div className="course">
+                <div className="course-preview">
+                  <h6>Programing</h6>
+                  <h2>JavaScript Fundamentals</h2>
+                  <a href="#">
+                    <span className="badge rounded-pill bg-secondary">
+                      #SLIITFOSS
+                    </span>{" "}
+                    <span className="badge rounded-pill bg-secondary">
+                      #JAVASCRIPT
+                    </span>
+                  </a>
                 </div>
-                <div className="carousel-item">
-                  <div className="row">
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
+                <div className="course-info">
+                  <div className="progress-container">
+                    <div className="progress" />
+                    <span className="progress-text">6/9 Challenges</span>
                   </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="row">
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                    <div className="col-12 col-md-6 col-xl-3 mb-4">
-                      <EventCard />
-                    </div>
-                  </div>
+                  <h6>Chapter 4</h6>
+                  <h2>Callbacks &amp; Closures</h2>
+                  <h6>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deleniti totam tempore earum sint sed ipsam iste accusantium
+                    porro? Reprehenderit atque dolor culpa dicta nam quam
+                    asperiores numquam natus voluptatibus porro!
+                  </h6>
+                  <hr />
+                  <h4>By SLIIT FOSS Community</h4>
+                  <button className="btn">RSVP</button>
                 </div>
               </div>
             </div>
