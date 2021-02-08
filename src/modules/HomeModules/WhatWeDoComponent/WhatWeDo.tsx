@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCommentAlt,
+  faCode,
+  faLaptop,
+  faPhotoVideo,
+} from "@fortawesome/free-solid-svg-icons";
 function WhatWeDo() {
   return (
     <>
@@ -16,13 +23,23 @@ function WhatWeDo() {
               <div className="row pt-4 pt-xl-5">
                 <div className="col-12 col-sm-6 col-xl-5">
                   <h4>
-                    <strong>Talks</strong>
+                    <strong>
+                      Talks{" "}
+                      <span>
+                        <FontAwesomeIcon icon={faCommentAlt} />
+                      </span>
+                    </strong>
                   </h4>
                   <p>Far far away, behind the word mountains</p>
                 </div>
                 <div className="col-12 col-sm-6 col-xl-5 m-auto pt-3 pt-sm-0">
                   <h4>
-                    <strong>Codelabs</strong>
+                    <strong>
+                      Codelabs{" "}
+                      <span>
+                        <FontAwesomeIcon icon={faCode} />
+                      </span>{" "}
+                    </strong>
                   </h4>
                   <p>Separated they live in Bookmarksgrove</p>
                 </div>
@@ -30,13 +47,23 @@ function WhatWeDo() {
               <div className="row pt-3">
                 <div className="col-12 col-sm-6 col-xl-5">
                   <h4>
-                    <strong>Study Jam</strong>
+                    <strong>
+                      Study Jam{" "}
+                      <span>
+                        <FontAwesomeIcon icon={faLaptop} />
+                      </span>
+                    </strong>
                   </h4>
                   <p>A small river named Duden flows by me</p>
                 </div>
                 <div className="col-12 col-sm-6 col-xl-5 m-auto pt-3 pt-sm-0">
                   <h4>
-                    <strong>Live Viewing Parties</strong>
+                    <strong>
+                      Live Viewing Parties{" "}
+                      <span>
+                        <FontAwesomeIcon icon={faPhotoVideo} />
+                      </span>
+                    </strong>
                   </h4>
                   <p>Separated they live in Bookmarksgrove</p>
                 </div>
