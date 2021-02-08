@@ -11,7 +11,7 @@ function Partners() {
         <div className="container">
           <div className="row align-items-top">
             <div className="col-12 col-md-6 col-xl-4 m-auto">
-              <h2>Our Partners</h2>
+              <h2 className="fw-bold">Our Partners</h2>
               <p>
                 A very big thank you to all our partners for their continued
                 partnership. If you’re interested in being showcased throughout

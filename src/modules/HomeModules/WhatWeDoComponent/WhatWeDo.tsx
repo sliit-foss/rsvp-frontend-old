@@ -19,7 +19,7 @@ function WhatWeDo() {
               />
             </div>
             <div className="col-12 col-lg-6 col-xl-5 ml-sm-auto pt-5 pt-lg-0">
-              <h1>What we do</h1>
+              <h1 className="fw-bold">What we do</h1>
               <div className="row pt-4 pt-xl-5">
                 <div className="col-12 col-sm-6 col-xl-5">
                   <h4>
