@@ -12,8 +12,8 @@ function GoodThings() {
               />
             </div>
             <div className="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
-              <h1> Make good things together.</h1>
-              <p className="lead">
+              <h1 className="fw-bold"> Make good things together.</h1>
+              <p className="lead fw-light">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Architecto reprehenderit voluptates nihil id harum molestias,
                 perferendis minus voluptatem ex autem enim facilis voluptatibus
