@@ -9,12 +9,6 @@ ul {
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
-.single-cta i {
-  color: #ff5e14;
-  font-size: 30px;
-  float: left;
-  margin-top: 8px;
-}
 .cta-text {
   padding-left: 15px;
   display: inline-block;
@@ -125,13 +119,13 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #1C102D;
+    background: #757575;
     padding: 13px 20px;
     border: none;
     top: 0;
 }
 .subscribe-form button i {
-  color: #1C102D;
+  color: #757575;
   font-size: 22px;
   transform: rotate(-6deg);
 }
