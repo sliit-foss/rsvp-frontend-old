@@ -20,10 +20,10 @@ function UpComingEvents() {
                   <h6>Programing</h6>
                   <h2>JavaScript Fundamentals</h2>
                   <a href="#">
-                    <span className="badge rounded-pill bg-secondary">
+                    <span className="badge rounded-pill text-dark bg-light">
                       #SLIITFOSS
                     </span>{" "}
-                    <span className="badge rounded-pill bg-secondary">
+                    <span className="badge rounded-pill text-dark bg-light">
                       #JAVASCRIPT
                     </span>
                   </a>
