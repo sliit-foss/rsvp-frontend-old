@@ -1,5 +1,9 @@
 import "./Navbar.scss";
+import { useHistory } from "react-router-dom";
+
 function Navbar() {
+  const history = useHistory();
+
   return (
     <>
       <nav className="navbar fixed-top navbar-expand-lg navbar-light">
@@ -26,7 +30,12 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a
+                  className="nav-link"
+                  onClick={() => {
+                    history.push("/events");
+                  }}
+                >
                   Events
                 </a>
               </li>
