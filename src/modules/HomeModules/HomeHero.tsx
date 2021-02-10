@@ -1,4 +1,7 @@
 import "../../scss/hero.scss";
+import carousel1 from "../../assets/images/logos/carousel1.jpg";
+import carousel2 from "../../assets/images/logos/carousel2.jpg";
+import carousel3 from "../../assets/images/logos/carousel3.jpg";
 function HomeHero() {
   return (
     <>
@@ -18,39 +21,16 @@ function HomeHero() {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              src="https://dummyimage.com/600x150/007aeb/4196e5"
-              className="d-block w-100"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
+            <img src={carousel1} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://dummyimage.com/600x150/007aeb/4196e5"
-              className="d-block w-100"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+            <img src={carousel2} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block"></div>
           </div>
           <div className="carousel-item">
-            <img
-              src="https://dummyimage.com/600x150/007aeb/4196e5"
-              className="d-block w-100"
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </div>
+            <img src={carousel3} className="d-block w-100" alt="..." />
+            <div className="carousel-caption d-none d-md-block"></div>
           </div>
         </div>
         <a
