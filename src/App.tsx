@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       <QueryClientProvider client={queryClient}>
-        <Navbar />
         <Router history={history}>
+          <Navbar />
           <Switch>
             {routes.map((route) => (
               <Route
@@ -26,8 +26,8 @@ function App() {
               />
             ))}
           </Switch>
+          <Footer />
         </Router>
-        <Footer />
       </QueryClientProvider>
     </div>
   );
