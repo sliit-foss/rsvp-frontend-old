@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <nav className="navbar fixed-top navbar-expand-lg navbar-light">
         <div className="container-fluid col-11">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             SLIIT RSVP PORTAL
           </a>
           <button
