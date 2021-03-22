@@ -1,0 +1,145 @@
+
+.cl-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  /* overflow: auto; */
+}
+
+.cl-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  flex: 1;
+  width: 100%;
+  /* background-color: #212327; */
+}
+
+.cl-rowtwo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  flex: 1;
+  width: 100%;
+  /* background-color: #212327; */
+}
+
+.cl-column {
+  flex: 25%;
+  max-width: 25%;
+  height: 100%;
+  padding: 0 4px;
+  /* background-color: #212327; */
+  /* overflow: hidden; */
+}
+
+.cl-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cl-box:nth-child(1) {
+  background-color: #0ba26d;
+}
+.cl-box:nth-child(2) {
+  background-color: #2673a7;
+}
+.cl-box:nth-child(3) {
+  background-color: #008d9e;
+}
+.cl-box:nth-child(4) {
+  background-color: #fe9900;
+}
+
+.cl-box span {
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cl-box button {
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.cl-box button:hover {
+  color: #212327;
+  background-color: #f8f8f8;
+  border: 1px solid unset;
+}
+
+.cl-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1s;
+}
+.cl-image:hover {
+  background-size: 120%;
+}
+
+.cl-image:nth-child(1) {
+  background-image: url("../../assets/images/clubs/foss.jpg");
+}
+.cl-image:nth-child(2) {
+  background-image: url("../../assets/images/clubs/mozilla.jpg");
+}
+.cl-image:nth-child(3) {
+  background-image: url("../../assets/images/clubs/ms.jpg");
+}
+.cl-image:nth-child(4) {
+  background-image: url("../../assets/images/clubs/sliit.jpg");
+}
+
+@media screen and (max-width: 1000px) {
+  .cl-column {
+    flex: 50%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+  .cl-container {
+    height: 200vh;
+  }
+  .cl-rowtwo {
+    flex-wrap: wrap-reverse;
+    display: flex;
+    padding: 0 4px;
+    flex: 1;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cl-column {
+    flex: 100%;
+    max-width: 100%;
+    max-height: 25%;
+  }
+  .cl-container {
+    height: 350vh;
+  }
+  .cl-rowtwo {
+    flex-wrap: wrap-reverse;
+    display: flex;
+    padding: 0 4px;
+    flex: 1;
+    width: 100%;
+  }
+}
