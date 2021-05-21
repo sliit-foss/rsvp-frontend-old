@@ -10,7 +10,7 @@ import Foss from "../../../assets/images/logos/foss.png";
 function Footer() {
   return (
     <>
-      <footer className="footer-section mt-5">
+      <footer className="footer-section">
         <div className="container">
           <div className="footer-content pt-5 pb-5">
             <div className="row">
