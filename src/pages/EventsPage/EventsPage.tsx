@@ -33,8 +33,10 @@ function EventsPage() {
             {dummyArray.map(() => (
               <EventCard
                 title="Event Title"
-                description="Event Description"
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZkX0Ib2I0hhRl5XBwBYqPeDaXFg7JzHAyA&usqp=CAU"
+                community="Event Community"
+                fromDate="20-03-2021"
+                toDate="23-03-2021"
+                image="https://blog.tubikstudio.com/wp-content/uploads/2018/07/world_cancer_day_illustration_tubik_graphic_design.png"
               />
             ))}
           </div>
@@ -54,8 +56,10 @@ function EventsPage() {
             {dummyArray.map(() => (
               <EventCard
                 title="Event Title"
-                description="Event Description"
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZkX0Ib2I0hhRl5XBwBYqPeDaXFg7JzHAyA&usqp=CAU"
+                community="Event Community"
+                fromDate="20-03-2021"
+                toDate="23-03-2021"
+                image="https://blog.tubikstudio.com/wp-content/uploads/2018/07/world_cancer_day_illustration_tubik_graphic_design.png"
               />
             ))}
           </div>
@@ -75,7 +79,7 @@ function EventsPage() {
             {dummyArray.map(() => (
               <EventCard
                 title="Category Title"
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZkX0Ib2I0hhRl5XBwBYqPeDaXFg7JzHAyA&usqp=CAU"
+                image="https://blog.tubikstudio.com/wp-content/uploads/2018/07/world_cancer_day_illustration_tubik_graphic_design.png"
               />
             ))}
           </div>
