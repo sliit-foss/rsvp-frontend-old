@@ -40,6 +40,7 @@
     -webkit-box-shadow: 0px 1px 27px -5px rgba(0, 0, 0, 0.87);
     box-shadow: 0px 1px 27px -5px rgba(0, 0, 0, 0.87);
     border-radius: 5px;
+    transition: all 0.3s ease-in;
 
     &:hover {
       background-image: linear-gradient(
@@ -73,6 +74,12 @@
       border: 1.5px solid #6fe7ff;
       padding: 0.4rem 0.8rem;
       color: #0098b6;
+      transition: all 0.1s ease-in;
+
+      &:hover {
+        background: #0098b6;
+        color: #fff;
+      }
 
       &:focus {
         outline: none;
