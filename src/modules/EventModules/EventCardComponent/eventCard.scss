@@ -1,0 +1,17 @@
+.event__ {
+  min-width: 320px;
+  max-width: 320px;
+  overflow: hidden;
+
+  &img {
+    overflow: hidden;
+  }
+
+  .card-img-top {
+    transition: all 0.2s ease;
+  }
+
+  .card-img-top:hover {
+    transform: scale(1.1);
+  }
+}
