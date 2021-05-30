@@ -1,0 +1,9 @@
+.event__page {
+  min-height: 100vh;
+
+  &-row {
+    // max-width: 1000vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
