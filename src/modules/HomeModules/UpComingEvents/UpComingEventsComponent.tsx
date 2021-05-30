@@ -6,8 +6,8 @@ function UpComingEvents() {
     <>
       <div className="container-fluid card-container mt-5">
         <div className="container-fluid d-flex flex-column justify-content-center px-1">
-          <h2 className="text-bold text-right mt-5 mb-5 upcoming-text">
-            Upcoming Events{" "}
+          <h2 className="text-bold text-center  mt-5 mb-5 upcoming-text">
+            Upcoming Event{" "}
             <span>
               <FontAwesomeIcon icon={faArrowCircleRight} />
             </span>
