@@ -62,7 +62,7 @@ function ContactPage() {
                       </div>
                       <div className="row mt-4">
                         <div className="col text-center">
-                          <button type="submit" className="btn-1 btn-primary">
+                          <button type="submit" className="btn">
                             Submit
                           </button>
                         </div>
