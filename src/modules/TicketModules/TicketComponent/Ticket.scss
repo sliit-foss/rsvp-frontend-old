@@ -1,0 +1,158 @@
+.ticket-frame {
+  margin: auto;
+  margin-top: 60px;
+  background-image: url(../../../assets/images/ticket/Ticket_landscape.svg);
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 420px;
+}
+.ticket-outer {
+  padding: 20px;
+  background-color: black;
+}
+
+.user {
+  width: 350px;
+  margin: auto;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.user-wrapper {
+  margin: 50px;
+}
+
+.user-wrapper td {
+  padding: 10px;
+}
+
+.user-wrapper td h3 {
+  font-weight: 700;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 75px;
+}
+
+.avatar {
+  margin: auto;
+  text-align: left;
+}
+
+.user-wrap {
+  padding-top: 40px;
+  float: left;
+}
+.wrapper {
+  margin-left: 30px;
+  color: azure;
+}
+.event {
+  margin-top: 120px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+.ticket-wrapper {
+  // float: left;
+
+  height: 320px;
+  width: 130px;
+}
+.number {
+  transform: rotate(90deg);
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: azure;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 320px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ticket-frame {
+    margin: auto;
+    margin-top: 60px;
+
+    background-image: url(../../../assets/images/ticket/Ticket_portrait.svg);
+    background-repeat: no-repeat;
+    width: 308px;
+    height: 612px;
+  }
+
+  .ticket-outer {
+    background-color: black;
+  }
+
+  .user {
+    width: 180px;
+    margin: auto;
+    margin-left: 15px;
+    text-align: left;
+  }
+
+  .user-wrapper {
+    margin: 0px;
+  }
+
+  .user-wrapper td {
+    padding: 10px;
+  }
+
+  .user-wrapper td h3 {
+    font-weight: 700;
+  }
+
+  .avatar img {
+    border-radius: 50%;
+    width: 75px;
+  }
+
+  .avatar {
+    margin-right: 20px;
+    text-align: left;
+  }
+
+  .user-wrap {
+    padding-top: 40px;
+    float: left;
+  }
+  .wrapper {
+    padding-top: 15px;
+    margin-left: 0px;
+    color: azure;
+  }
+
+  .innerdata {
+    font-size: larger;
+    width: 100%;
+    padding-top: 30px;
+    margin-left: 0px;
+  }
+
+  .event {
+    margin-top: 80px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+  }
+  .ticket-wrapper {
+    // float: left;
+
+    margin-top: 400px;
+    height: min-content;
+    margin-left: -305px;
+    width: 308px;
+  }
+  .number {
+    transform: rotate(0deg);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: azure;
+    margin-bottom: 0px;
+    width: 320px;
+  }
+}
