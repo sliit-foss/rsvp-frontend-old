@@ -4,6 +4,8 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { createHashHistory } from "history";
 import { Route, Router, Switch } from "react-router-dom";
 import { routes } from "./routes/AppRoutes";
+import Footer from "./components/Common/Footer/Footer";
+import Navbar from "./components/Common/Navbar/Navbar";
 
 const history = createHashHistory();
 const queryClient = new QueryClient();
@@ -13,7 +15,7 @@ function App() {
     <div>
       <QueryClientProvider client={queryClient}>
         <Router history={history}>
-          {/*<Navbar />*/}
+          <Navbar />
           <Switch>
             {routes.map((route) => (
               <Route
@@ -24,7 +26,7 @@ function App() {
               />
             ))}
           </Switch>
-          {/*<Footer />*/}
+          <Footer />
         </Router>
       </QueryClientProvider>
     </div>
