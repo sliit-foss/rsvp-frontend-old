@@ -1,0 +1,332 @@
+$background-primary-color: #FFFFFF;
+$background-secondary-color: #D8DBFE;
+$font-primary-color: #FFFFFF;
+$font-secondary-color: #7e7e7e;
+$font-th-color: #000000;
+$button-background-color: #5138EE;
+$primary-box-shadow: 0 3px 5px rgba(167, 167, 167, 0.471);
+$nav-link-color: #1b1799;
+
+.mainContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: $background-secondary-color;
+
+  .content-div {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 90%;
+
+    .content {
+      width: 50%;
+      height: 100%;
+      background-color: $background-primary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .formDiv {
+        width: 75%;
+        height: 90%;
+
+        .iconDiv {
+          position: relative;
+          width: fit-content;
+          height: fit-content;
+          left: 6vw;
+        }
+
+        .LoginHeaderDiv {
+          position: relative;
+          left: 4vw;
+          width: 90%;
+          margin: 25px 0 0 25px;
+
+          p {
+            font-size: 13px;
+            color: $font-secondary-color;
+            opacity: 40%;
+            padding-bottom: 5px;
+          }
+        }
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .inputDiv input[type="email"] {
+            background-color: #ffffff;
+            border-radius: 20px;
+          }
+
+          .inputDiv input[type="password"] {
+            background-color: $background-primary-color;
+            border-radius: 20px;
+          }
+
+          .btn-login {
+            border-radius: 20px;
+            background-color: $button-background-color;
+            font-weight: bold;
+            box-shadow: $primary-box-shadow;
+            color: $background-primary-color;
+          }
+
+          .rememberAndForgetDiv {
+            display: flex;
+            flex-direction: row;
+            margin: 15px 0 15px 0;
+            justify-content: space-between;
+
+            #remember {
+              margin-right: 8px;
+            }
+          }
+
+          .ForgetPasswordDiv {
+            a {
+              text-decoration: none;
+              font-size: 13px;
+              color: $nav-link-color;
+            }
+          }
+
+
+          .createAccLinkDiv {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+
+            p {
+              font-size: 13px;
+              font-weight: bolder;
+              margin-right: 3px;
+            }
+
+            a {
+              text-decoration: none;
+              font-size: 13px;
+              margin-left: 3px;
+              color: $nav-link-color;
+            }
+          }
+        }
+
+        .googleButtonDiv {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .btn-google {
+            width: 250px;
+            border-radius: 20px;
+            background-color: $background-primary-color;
+            color: $font-th-color;
+            font-weight: bold;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+
+            img {
+              padding-left: 10px;
+              padding-right: 10px;
+            }
+          }
+
+          .breakDiv {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            span {
+              width: 130px;
+              height: 3px;
+              background-color: $font-secondary-color;
+              margin: 0 5px 0 5px;
+              opacity: 30%;
+            }
+
+            p {
+              margin: 0;
+              color: $font-secondary-color;
+            }
+          }
+        }
+      }
+
+      .imageDiv {
+        width: 100%;
+        height: 100%;
+        background: url("../../assets/images/login/11953251.png") 50% 50%;
+        background-size: cover;
+        display: block;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-device-width: 768px) {
+  .mainContainer {
+    .content-div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+
+      .content {
+        width: 100%;
+        height: 100%;
+        background-color: $background-primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .formDiv {
+          width: 100%;
+          height: 100%;
+        }
+
+        .imageDiv {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 425px) {
+  .mainContainer {
+    .content-div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+
+      .content {
+        width: 100%;
+        height: 100%;
+        background-color: $background-primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .formDiv {
+          width: 100%;
+          height: 100%;
+        }
+
+        .imageDiv {
+          display: none;
+        }
+
+        .btn-login {
+          border-radius: 20px;
+          background-color: $button-background-color;
+          font-weight: bold;
+          box-shadow: $primary-box-shadow;
+          color: $background-primary-color;
+          height: 36px;
+          width: 200px;
+          padding: 0 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .mainContainer {
+    .content-div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+
+      .content {
+        width: 100%;
+        height: 100%;
+        background-color: $background-primary-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .inputDiv input[type="email"] {
+            background-color: #ffffff;
+            border-radius: 20px;
+          }
+
+          .inputDiv input[type="password"] {
+            background-color: $background-primary-color;
+            border-radius: 20px;
+          }
+
+          .btn-login {
+            border-radius: 20px;
+            background-color: $button-background-color;
+            font-weight: bold;
+            box-shadow: $primary-box-shadow;
+            color: $background-primary-color;
+            height: 30px;
+            width: 200px;
+            padding: 0 0 0 0;
+          }
+        }
+
+        .formDiv {
+          width: 100%;
+          height: 100%;
+
+          .LoginHeaderDiv {
+            margin-left: 10px;
+          }
+        }
+
+        .imageDiv {
+          display: none;
+        }
+
+        .breakDiv {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          span {
+            width: 130px;
+            height: 3px;
+            background-color: $font-secondary-color;
+            margin: 0 5px 0 5px;
+            opacity: 30%;
+          }
+
+          p {
+            margin: 0;
+            color: $font-secondary-color;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
